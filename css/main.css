@@ -1,0 +1,151 @@
+.background{
+    background: url('../images/Background.png') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header{
+	background: url('../images/Header.png') no-repeat top center;
+	height: 118px;
+}
+
+.gradient{
+	height: 175px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("../images/Gradient.png");
+}
+
+.text-container{
+	float: left;
+	width: 1122px;
+	height: 95px;
+	margin-top: 30px;	
+
+}
+
+.large-text{
+    width: 680px;
+    height: 95px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 29px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    line-height: 115%;
+    text-align: left;
+}
+
+.slider{
+	width: 1050px;
+	height: 420px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.carousel-inner .active.left { left: -33%; }
+.carousel-inner .next        { left:  33%; }
+.carousel-inner .prev        { left: -33%; }
+.carousel-control.left,.carousel-control.right {background-image:none;}
+.item:not(.prev) {visibility: visible;}
+.item.right:not(.prev) {visibility: hidden;}
+.rightest{ visibility: visible;}
+
+.arrow{
+	position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+}
+
+.left{
+	text-align: left;
+}
+
+.right{
+	text-align: right;
+}
+
+.arrow-right{
+	position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    right: -5px;
+}
+
+.slide-container{
+	background-color:  rgba(255, 255, 255, 0.53);
+	margin-left: auto;
+	margin-right: auto;
+	width:1140px;
+	height: 420px;	
+}
+ 
+.carousel-inner{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button{
+	position: relative;
+	margin-top: 43px;
+	width: 260px;
+	height: 43px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #da0712;
+}
+
+.button-text{
+	position: absolute;
+	margin: 10px 10px 15px 10px;
+	width: 240px;
+	height: 13px;
+	font-family: Gotham, Arial;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	color:  #ffffff;
+	font-weight: 700;
+	text-align: center;
+}
+
+.footer{
+	margin-top: 97px;
+	background: url('../images/Footer.png') no-repeat top center;
+	height: 373px;
+}
+
+img{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.slick-prev{
+	height: 47px;
+	width: 25px;
+}
+
+.slick-next{
+	height: 47px;
+	width: 25px;
+}
+
+.slick-prev:before{
+	content: url('../images/ArrowLeft.png');
+}
+
+.slick-next:before{
+	content: url('../images/ArrowRight.png')
+}
+
+:focus{
+	outline: none;
+}
+
+.slick-track{
+	margin-top: 55px;
+}
